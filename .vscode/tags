@@ -1,0 +1,85 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+0001_initial.py	../notes/migrations/0001_initial.py	1;"	kind:file	line:1
+0002_auto_20190611_2250.py	../notes/migrations/0002_auto_20190611_2250.py	1;"	kind:file	line:1
+0003_note_owner.py	../notes/migrations/0003_note_owner.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../mdnote_api/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../mdnote_api/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:96
+BASE_DIR	../mdnote_api/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+DATABASES	../mdnote_api/settings.py	/^DATABASES = {$/;"	kind:variable	line:85
+DEBUG	../mdnote_api/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+GroupSerializer	../notes/serializers.py	/^class GroupSerializer(serializers.HyperlinkedModelSerializer):$/;"	kind:class	line:12
+GroupViewSet	../notes/views.py	/^class GroupViewSet(viewsets.ModelViewSet):$/;"	kind:class	line:16
+INSTALLED_APPS	../mdnote_api/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	../mdnote_api/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:115
+MIDDLEWARE	../mdnote_api/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:51
+Meta	../notes/serializers.py	/^    class Meta:$/;"	kind:class	line:13
+Meta	../notes/serializers.py	/^    class Meta:$/;"	kind:class	line:19
+Meta	../notes/serializers.py	/^    class Meta:$/;"	kind:class	line:7
+Migration	../notes/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../notes/migrations/0002_auto_20190611_2250.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../notes/migrations/0003_note_owner.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Note	../notes/models.py	/^class Note(models.Model):$/;"	kind:class	line:4
+NotesConfig	../notes/apps.py	/^class NotesConfig(AppConfig):$/;"	kind:class	line:4
+NotesSerializer	../notes/serializers.py	/^class NotesSerializer(serializers.ModelSerializer):$/;"	kind:class	line:18
+NotesViewSet	../notes/views.py	/^class NotesViewSet(viewsets.ModelViewSet):$/;"	kind:class	line:24
+REST_FRAMEWORK	../mdnote_api/settings.py	/^REST_FRAMEWORK = {$/;"	kind:variable	line:131
+ROOT_URLCONF	../mdnote_api/settings.py	/^ROOT_URLCONF = 'mdnote_api.urls'$/;"	kind:variable	line:61
+SECRET_KEY	../mdnote_api/settings.py	/^SECRET_KEY = '-tc$-hz1x3(q70kb_lok@86l!-x3g0iol(y7jcwr#8wg31-=%='$/;"	kind:variable	line:23
+SITE_ID	../mdnote_api/settings.py	/^SITE_ID = 1$/;"	kind:variable	line:49
+STATIC_URL	../mdnote_api/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:129
+TEMPLATES	../mdnote_api/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:63
+TIME_ZONE	../mdnote_api/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:117
+USE_I18N	../mdnote_api/settings.py	/^USE_I18N = True$/;"	kind:variable	line:119
+USE_L10N	../mdnote_api/settings.py	/^USE_L10N = True$/;"	kind:variable	line:121
+USE_TZ	../mdnote_api/settings.py	/^USE_TZ = True$/;"	kind:variable	line:123
+UserSerializer	../notes/serializers.py	/^class UserSerializer(serializers.HyperlinkedModelSerializer):$/;"	kind:class	line:6
+UserViewSet	../notes/views.py	/^class UserViewSet(viewsets.ModelViewSet):$/;"	kind:class	line:8
+WSGI_APPLICATION	../mdnote_api/settings.py	/^WSGI_APPLICATION = 'mdnote_api.wsgi.application'$/;"	kind:variable	line:79
+__init__.py	../mdnote_api/__init__.py	1;"	kind:file	line:1
+__init__.py	../notes/__init__.py	1;"	kind:file	line:1
+__init__.py	../notes/migrations/__init__.py	1;"	kind:file	line:1
+admin.py	../notes/admin.py	1;"	kind:file	line:1
+application	../mdnote_api/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../notes/apps.py	1;"	kind:file	line:1
+auth_views	../mdnote_api/urls.py	/^from rest_framework.authtoken import views as auth_views$/;"	kind:unknown	line:18
+creation_date	../notes/models.py	/^    creation_date = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:8
+dependencies	../notes/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../notes/migrations/0002_auto_20190611_2250.py	/^    dependencies = [$/;"	kind:variable	line:8
+dependencies	../notes/migrations/0003_note_owner.py	/^    dependencies = [$/;"	kind:variable	line:10
+fields	../notes/serializers.py	/^        fields = ('id', 'name', 'text', 'owner')/;"	kind:variable	line:21
+fields	../notes/serializers.py	/^        fields = ('url', 'name')$/;"	kind:variable	line:15
+fields	../notes/serializers.py	/^        fields = ('url', 'username', 'email', 'groups')$/;"	kind:variable	line:9
+id	../notes/models.py	/^    id = models.AutoField(primary_key=True)$/;"	kind:variable	line:5
+initial	../notes/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:8
+main	../manage.py	/^def main():$/;"	kind:function	line:7
+manage.py	../manage.py	1;"	kind:file	line:1
+model	../notes/serializers.py	/^        model = Group$/;"	kind:variable	line:14
+model	../notes/serializers.py	/^        model = Note$/;"	kind:variable	line:20
+model	../notes/serializers.py	/^        model = User$/;"	kind:variable	line:8
+models.py	../notes/models.py	1;"	kind:file	line:1
+name	../notes/apps.py	/^    name = 'notes'$/;"	kind:variable	line:5
+name	../notes/models.py	/^    name = models.CharField(max_length=255)$/;"	kind:variable	line:6
+operations	../notes/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:13
+operations	../notes/migrations/0002_auto_20190611_2250.py	/^    operations = [$/;"	kind:variable	line:12
+operations	../notes/migrations/0003_note_owner.py	/^    operations = [$/;"	kind:variable	line:15
+owner	../notes/models.py	/^    owner = models.ForeignKey('auth.User', related_name='notes', on_delete=models.CASCADE)/;"	kind:variable	line:9
+queryset	../notes/views.py	/^    queryset = Group.objects.all()$/;"	kind:variable	line:20
+queryset	../notes/views.py	/^    queryset = Note.objects.all()$/;"	kind:variable	line:28
+queryset	../notes/views.py	/^    queryset = User.objects.all().order_by('-date_joined')$/;"	kind:variable	line:12
+router	../mdnote_api/urls.py	/^router = routers.DefaultRouter()$/;"	kind:variable	line:21
+serializer_class	../notes/views.py	/^    serializer_class = GroupSerializer$/;"	kind:variable	line:21
+serializer_class	../notes/views.py	/^    serializer_class = NotesSerializer/;"	kind:variable	line:29
+serializer_class	../notes/views.py	/^    serializer_class = UserSerializer$/;"	kind:variable	line:13
+serializers.py	../notes/serializers.py	1;"	kind:file	line:1
+settings.py	../mdnote_api/settings.py	1;"	kind:file	line:1
+tests.py	../notes/tests.py	1;"	kind:file	line:1
+text	../notes/models.py	/^    text = models.TextField()$/;"	kind:variable	line:7
+urlpatterns	../mdnote_api/urls.py	/^urlpatterns = [$/;"	kind:variable	line:28
+urls.py	../mdnote_api/urls.py	1;"	kind:file	line:1
+views.py	../notes/views.py	1;"	kind:file	line:1
+wsgi.py	../mdnote_api/wsgi.py	1;"	kind:file	line:1
